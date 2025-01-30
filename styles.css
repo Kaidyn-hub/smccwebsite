@@ -1,0 +1,479 @@
+:root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: darkblue;
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.brand-container{
+    display: inline-block;
+}
+
+.brand-title{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -15px;
+}
+
+.link-container{
+    float: right;
+    margin: 0;
+    position: relative;
+    top: 15px;
+    margin-right: 45px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 15px;
+    transition: 0.2s;
+}
+
+.link:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+.btn-link{
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.btn-link:hover{
+    text-decoration: underline;
+    color: orange;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: black;
+}
+
+main{
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#about{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 170px;
+}
+
+#about h2{
+    text-align: center;
+    padding-bottom: 25px;
+    color: red;
+}
+
+#about h3{
+    text-align: center;
+}
+
+#about p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+#about ul{
+    text-align: justify;
+}
+
+.con-vmgo, .con-core{
+    width: 700px;
+    padding: 50px;
+    padding-top: 25px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    transition: ease-in-out 0.5s;
+}
+
+.con-vmgo:hover, .con-core:hover{
+    transform: scale(1.1);
+}
+
+.core-values{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.one-letter p{
+    font-size: 60px;
+    padding: 0px;
+    margin: 0;
+    color: darkred;
+}
+
+.one-word p{
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.michaelinian-identity{
+    display: flex;
+    align-items: center;
+}
+
+.smcc-mc, .identity-pppp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.big-letter p{
+    font-size: 60px;
+    padding: 0px;
+    padding-top: 15px ;
+    padding-bottom: 15px ;
+    margin: 0;
+    color: darkred;
+}
+
+.identity-p p{
+    padding: 20px;
+    padding-left: 0;
+    margin: 0;
+    text-indent: 0;
+}
+
+.identity-p b{
+    text-indent: 0;
+}
+
+.all-about-smcc{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: 80px;
+}
+
+.view-all{
+    margin-right: 25px;
+    padding: 20px;
+    border-radius: 28px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+    transition: ease -in-out 0.2s;
+    text-align: center;
+    color: black;
+}
+
+.view-all a{
+    text-decoration: none;
+    color: black;
+}
+
+.view-all:hover, .view-all a:hover{
+    color: gold;
+    background-color: darkblue;;
+}
+.qp-container{
+    display: flex;
+    justify-content: center;
+}
+
+.qp-container img{
+    height: 1000px;
+}
+
+.qp-container img:hover{
+    transform: scale(1.3);
+}
+
+.sh-main, .mstones-main, .sl-main{
+    background-color: rgb(208, 208, 216);
+}
+
+.sh-container{
+    width: 1000px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    background-color: rgb(2, 2, 75);
+    color: white;
+    padding: 50px;
+    padding-top: 25px ;
+    border-radius: 35px;
+}
+
+.sh-container p{
+    text-indent: 30px;
+}
+
+.sh-container h2, .mstones-title{
+    color: gold;
+    text-align: center;
+}
+
+.sh-container a{
+    color: white;
+}
+
+.sh-container a:hover{
+    color: gold;
+}
+
+.mstones-container{
+    width: 1000px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    background-color: rgb(2, 2, 75);
+    color: white;
+    padding: 50px;
+    padding-top: 25px ;
+    border-radius: 35px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.mstones-year{
+    color: rgb(236, 201, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.mstones-year h4{
+    text-align: center;
+}
+
+.mstones-stones{
+    color: white;
+    display: flex;
+}
+
+.tsl-container{
+    width: 800px;
+    background-color: rgb(2, 2, 75);
+    color: white;
+    padding: 50px;
+    padding-top: 25px ;
+    border-radius: 35px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tsl-title{
+    color: gold;
+    display: block;
+    font-size: large;
+}
+
+.tsl{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.tsl p{
+    margin: 0;
+    text-indent: 50px;
+    padding: 50px;
+    text-align: justify;
+}
+
+.the-symbol-container, .the-color-container{
+    width: 800px;
+    background-color: rgb(2, 2, 75);
+    color: white;
+    padding: 50px;
+    padding-top: 25px ;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.tsc-title, .tcc-title{
+    color: gold;
+    font-size: large;
+    text-align: center;
+}
+
+.the-symbol-container h5, .the-color-container h5{
+    color: rgb(236, 201, 1);
+    font-size: large;
+}
+
+.the-symbol-container p, .the-color-container p{
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.the-color-container:hover,
+.the-symbol-container:hover,
+.tsl-container:hover{
+    background-color:rgb(32, 32, 117);
+}
+
+#program-offered{
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+#program-offered h2{
+    margin-bottom: 50px;
+}
+
+.program-container{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.college-courses, .shs-courses, .basic-courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(32, 32, 117);
+    padding: 30px;
+    padding-top: 25px ;
+    padding-bottom: 25px ;
+    border-radius: 28px;
+}
+
+.college-courses h3, .shs-courses h3, .basic-courses h3{
+    color: rgb(236, 201, 1);
+}
+
+.college-courses img, .basic-courses img{
+    width: 65px;
+}
+
+.college-courses ul, .basic-courses ul{
+    margin: 0;
+    padding: 0;
+}
+
+.college-courses li, .shs-courses p, .basic-courses li{
+    list-style: none;
+    color: white;
+    text-align: left;
+}
+
+.college-courses p, .basic-courses p{
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    font-size: medium;
+}
+
+.college-courses a, .shs-courses a, .basic-courses a{
+    text-align: center;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 0);
+    border-radius: 28px;
+}
+
+.college-courses a:hover,
+.shs-courses a:hover,
+.basic-courses a:hover
+{
+ background-color: rgb(255, 255, 98);
+ color: red;
+}
+
+.college-courses:hover,
+.shs-courses:hover,
+.basic-courses:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+#services{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.services-list{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.services-list a{
+    font-size: 34px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.services-list a:hover{
+    font-size: 34px;
+    text-decoration: underline;
+    color: gold;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 28px;
+}
+
+#contact{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.contacts-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-smcc ul{
+    font-size: 20px;
+}
+
+.contacts-smcc li{
+    list-style: none;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer a{
+    text-decoration: none;
+    
+}
