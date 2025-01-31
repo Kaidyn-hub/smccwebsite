@@ -386,11 +386,18 @@ main{
     text-align: left;
 }
 
+.basic-courses p{
+    color: white;
+}
+
 .college-courses p, .basic-courses p{
     display: inline-block;
-    position: relative;
-    top: -25px;
     font-size: medium;
+}
+
+.college-courses li, .basic-courses li{
+    display: flex;
+    align-items: center;
 }
 
 .college-courses a, .shs-courses a, .basic-courses a{
